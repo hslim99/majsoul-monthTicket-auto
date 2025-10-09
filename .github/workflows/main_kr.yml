@@ -22,8 +22,8 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Execute main.py
-      run: python main.py
+    - name: Execute main_kr.py
+      run: python main_kr.py
       env:
         UID_KR: ${{ secrets.UID_KR }}
         TOKEN_KR: ${{ secrets.TOKEN_KR }}
