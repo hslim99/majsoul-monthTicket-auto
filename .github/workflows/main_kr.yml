@@ -20,7 +20,7 @@ jobs:
       run: npm ci
 
     - name: Execute month ticket automation
-      run: npm start-kr
+      run: npm run start-kr
       env:
         UID_KR: ${{ secrets.UID_KR }}
         TOKEN_KR: ${{ secrets.TOKEN_KR }}
