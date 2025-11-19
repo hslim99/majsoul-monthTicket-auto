@@ -4,7 +4,8 @@
   "private": true,
   "type": "commonjs",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "start-kr": "node src/index-kr.js"
   },
   "dependencies": {
     "protobufjs": "^7.2.6",
