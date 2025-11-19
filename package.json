@@ -5,7 +5,7 @@
   "type": "commonjs",
   "scripts": {
     "start": "node src/index.js",
-    "start-kr": "node src/index-kr.js"
+    "start-kr": "node src/index_kr.js"
   },
   "dependencies": {
     "protobufjs": "^7.2.6",
