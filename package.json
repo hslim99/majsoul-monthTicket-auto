@@ -5,11 +5,12 @@
   "type": "commonjs",
   "scripts": {
     "start": "node src/index.js",
-    "start-kr": "node src/index_kr.js"
+    "start-kr": "node src/index_kr.js",
+    "test": "node --test"
   },
   "dependencies": {
+    "dotenv": "^17.3.1",
     "protobufjs": "^7.2.6",
     "ws": "^8.17.0"
   }
 }
-
